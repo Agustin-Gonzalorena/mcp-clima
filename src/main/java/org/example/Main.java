@@ -17,7 +17,7 @@ public class Main {
 
         // Crea el servidor sincronico MCP
         McpSyncServer server = McpServer.sync(transportProvider)
-                .serverInfo("my-server", "1.0.0")
+                .serverInfo("my-mcp-clima-server", "1.0.0")
                 .capabilities(ServerCapabilities.builder().tools(true).build())
                 .build();
 
